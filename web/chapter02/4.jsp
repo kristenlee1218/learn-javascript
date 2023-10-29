@@ -11,6 +11,9 @@
     <title>Title</title>
 </head>
 <body>
+<h1>我的 Web 页面</h1>
+<p id="demo">一个段落</p>
+<button type="button" onclick="myFunction()">尝试一下</button>
 <script src="myScript.js"></script>
 </body>
 </html>
