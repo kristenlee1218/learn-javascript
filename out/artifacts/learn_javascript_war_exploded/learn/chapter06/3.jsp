@@ -1,0 +1,22 @@
+<%--
+3、行末注释
+--%>
+
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+
+<p id="myP"></p>
+<script>
+    var x = 5;   // 声明 x 并把 5 赋值给它
+    var y = x + 2;   // 声明 y 并把 x+2 赋值给它
+    document.getElementById("myP").innerHTML = y // 把 y 的值写到 myP
+</script>
+<p><b>注释：</b>注释不会被执行。</p>
+
+</body>
+</html>
