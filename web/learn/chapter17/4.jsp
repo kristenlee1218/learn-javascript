@@ -29,6 +29,5 @@
         document.getElementById("demo").innerHTML = x;
     }
 </script>
-
 </body>
 </html>
