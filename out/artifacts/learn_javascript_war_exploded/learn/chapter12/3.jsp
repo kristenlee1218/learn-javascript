@@ -1,13 +1,23 @@
 <%--
-3、
+3、HTML 事件
 --%>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <meta charset="utf-8">
+    <title>菜鸟教程(runoob.com)</title>
 </head>
 <body>
+
+<p>点击按钮执行 <em>displayDate()</em> 函数.</p>
+<button onclick="displayDate()">点这里</button>
+<script>
+    function displayDate(){
+        document.getElementById("demo").innerHTML=Date();
+    }
+</script>
+<p id="demo"></p>
 
 </body>
 </html>
