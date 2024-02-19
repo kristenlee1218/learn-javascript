@@ -15,9 +15,9 @@
 <p id="demo"></p>
 <script>
     function myFunction() {
-        var x = "", i = 0;
-        for (i = 0; i < 10; i++) {
-            if (i == 3) {
+        let x = "";
+        for (let i = 0; i < 10; i++) {
+            if (i === 3) {
                 break;
             }
             x = x + "该数字为 " + i + "<br>";
