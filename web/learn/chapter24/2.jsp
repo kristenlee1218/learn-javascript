@@ -1,13 +1,25 @@
 <%--
-2、
+2、search() 方法使用字符串
 --%>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <meta charset="utf-8">
+    <title>菜鸟教程(runoob.com)</title>
 </head>
 <body>
+
+<p>搜索字符串 "Runoob", 并显示匹配的起始位置：</p>
+<button onclick="myFunction()">点我</button>
+<p id="demo"></p>
+<script>
+    function myFunction() {
+        var str = "Visit Runoob!";
+        var n = str.search("Runoob");
+        document.getElementById("demo").innerHTML = n;
+    }
+</script>
 
 </body>
 </html>
