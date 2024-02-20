@@ -1,13 +1,22 @@
 <%--
-3、
+3、for 与 while 的比较
 --%>
 
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Title</title>
+    <meta charset="utf-8">
+    <title>菜鸟教程(runoob.com)</title>
 </head>
 <body>
 
+<script>
+    cars = ["BMW", "Volvo", "Saab", "Ford"];
+    var i = 0;
+    for (; cars[i];) {
+        document.write(cars[i] + "<br>");
+        i++;
+    }
+</script>
 </body>
 </html>
