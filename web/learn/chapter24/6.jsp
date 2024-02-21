@@ -1,5 +1,5 @@
 <%--
-5、使用 exec()
+6、使用 exec()
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
