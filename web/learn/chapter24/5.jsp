@@ -1,5 +1,5 @@
 <%--
-2、HTML 事件
+5、使用 test()
 --%>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -10,7 +10,10 @@
 </head>
 <body>
 
-<button onclick="this.innerHTML=Date()">现在的时间是?</button>
+<script>
+    var patt1 = new RegExp("e");
+    document.write(patt1.test("The best things in life are free"));
+</script>
 
 </body>
 </html>

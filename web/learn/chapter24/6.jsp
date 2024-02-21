@@ -1,7 +1,6 @@
 <%--
-1、使用 window.alert()
+5、使用 exec()
 --%>
-
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -10,10 +9,9 @@
 </head>
 <body>
 
-<h1>我的第一个页面</h1>
-<p>我的第一个段落。</p>
 <script>
-    window.alert(5 + 6);
+    var patt1 = new RegExp("e");
+    document.write(patt1.exec("The best things in life are free"));
 </script>
 
 </body>
